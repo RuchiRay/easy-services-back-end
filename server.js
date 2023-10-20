@@ -12,7 +12,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-    origin: 'https://easy-services.netlify.app/'
+    origin: 'https://easy-services.netlify.app'
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
