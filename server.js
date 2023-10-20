@@ -12,7 +12,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-    origin: 'https://example.com'
+    origin: 'https://easy-services-back-end-production.up.railway.app'
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
